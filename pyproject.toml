@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyMALDI"
+version = "0.2.0"
+description = "Reading and preprocessing of MALDI-TOF mass spectra in Python, with numerical parity against MALDIquant"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Jerson Andrés Martínez" },
+  { name = "Roque Figueroa-Espinosa" },
+  { name = "Lautaro Barraza" },
+  { name = "José Alejandro Di Conza" },
+]
+license = { text = "MIT" }
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "lxml>=5.0",
+  "pyteomics>=4.6"
+]
+
+keywords = ["MALDI-TOF", "mass spectrometry", "Bruker", "mzML", "preprocessing", "MALDIquant"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+  "Topic :: Scientific/Engineering :: Chemistry",
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.7"]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.6"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

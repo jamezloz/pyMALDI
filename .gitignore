@@ -1,0 +1,22 @@
+# Datos y resultados locales (espectros, referencias de R generadas sobre ellos, informes de corridas)
+references/
+reports/
+# Notas de desarrollo y documentos internos de planificación
+SESSION_NOTES.md
+docs/CAPABILITY_MATRIX_APP_PLUS_CSV.md
+docs/GAP_ROADMAP_APP_REPLACEMENT.md
+docs/APP_INTEGRATION_OPEN_PLOT_CONTRACT.md
+docs/REVERSE_ENGINEERING_PLAN.md
+# Script de comparación con la aplicación MALDI-ONE (rutas locales)
+scripts/compare_app_vs_pymaldi.py
+# Python y entorno
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+.mplconfig/
+.cache/
+.DS_Store

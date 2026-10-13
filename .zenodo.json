@@ -1,0 +1,17 @@
+{
+  "title": "pyMALDI: reading and preprocessing of MALDI-TOF spectra in Python",
+  "upload_type": "software",
+  "description": "Python library to read MALDI-TOF mass spectra (Bruker flex fid without conversion, mzML, mzXML, Bruker XML, TXT and CSV peak lists) and preprocess them following the MALDIquant workflow (transformation, smoothing, baseline correction, calibration, peak detection and alignment), with numerical parity validated against MALDIquant and MALDIquantForeign. Reading and preprocessing engine of MALDI-ARC and MALDI-ONE.",
+  "creators": [
+    {"name": "Martínez, Jerson Andrés"},
+    {"name": "Figueroa-Espinosa, Roque"},
+    {"name": "Barraza, Lautaro"},
+    {"name": "Di Conza, José Alejandro"}
+  ],
+  "license": "MIT",
+  "keywords": ["MALDI-TOF", "mass spectrometry", "Bruker", "mzML", "preprocessing", "MALDIquant", "Python"],
+  "related_identifiers": [
+    {"identifier": "10.1093/bioinformatics/bts447", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.1186/1471-2105-7-403", "relation": "references", "scheme": "doi"}
+  ]
+}
