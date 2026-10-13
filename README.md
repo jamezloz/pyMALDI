@@ -1,5 +1,7 @@
 # pyMALDI
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23349846.svg)](https://doi.org/10.5281/zenodo.23349846)
+
 Reading and preprocessing of MALDI-TOF mass spectra in Python, with numerical parity against the R packages
 **MALDIquant** and **MALDIquantForeign**.
 
@@ -95,7 +97,9 @@ PYMALDI_TEST_DATA=/path/to/spectra pytest     # also runs the tests that read re
 ## How to cite
 
 Martínez JA, Figueroa-Espinosa R, Barraza L, Di Conza JA. *pyMALDI: reading and preprocessing of MALDI-TOF spectra in
-Python* (version 0.2.0). MALDI-TEAM, 2026. See `CITATION.cff`.
+Python* (version 0.2.0). Zenodo, 2026. doi:10.5281/zenodo.23349847
+
+The DOI 10.5281/zenodo.23349846 always resolves to the latest version. See `CITATION.cff`.
 
 ## References
 

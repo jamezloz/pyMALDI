@@ -5,6 +5,15 @@ type: software
 version: 0.2.0
 date-released: 2026-02-13
 license: MIT
+doi: 10.5281/zenodo.23349847
+repository-code: "https://github.com/jamezloz/pyMALDI"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23349846
+    description: All versions
+  - type: doi
+    value: 10.5281/zenodo.23349847
+    description: Version 0.2.0
 authors:
   - given-names: Jerson Andrés
     family-names: Martínez
